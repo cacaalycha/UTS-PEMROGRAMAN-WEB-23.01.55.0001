@@ -4,6 +4,7 @@ Buat folder baru di htdocs dengan nama hijab-fashion.
 <br />
 Langkah 2: Membuat Halaman Web
 -Buat File index.php (Halaman Home)
+```php
 <?php
 $title = "Hijab Fashion - Home";
 include('header.php');
