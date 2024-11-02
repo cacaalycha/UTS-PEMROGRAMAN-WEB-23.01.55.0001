@@ -4,16 +4,16 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
 
 *Penjelasan fitur yang ada:
 1. File Struktur:
-   index.php (Halaman Home)
-   produk.php (Halaman Produk)
-   kontak.php (Halaman Tentang Kami)
-   detailproduk.php (Halaman Detail Produk)
-   co.php (Halaman Form Pemesanan)
-   header.php (File untuk navigasi)
-   footer.php (File untuk footer)
-   Folder gambar/ (Folder untuk gambar produk)
-   script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
-   style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
+   -index.php (Halaman Home)
+   -produk.php (Halaman Produk)
+   -kontak.php (Halaman Tentang Kami)
+   -detailproduk.php (Halaman Detail Produk)
+   -co.php (Halaman Form Pemesanan)
+   -header.php (File untuk navigasi)
+   -footer.php (File untuk footer)
+   -Folder gambar/ (Folder untuk gambar produk)
+   -script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
+   -style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
 3. Navigasi Antar Halaman:
    Menggunakan Bootstrap untuk membuat navbar dan footer yang konsisten di setiap halaman.
    Struktur navigasi berada di header.php yang akan disertakan di setiap halaman menggunakan PHP include().
