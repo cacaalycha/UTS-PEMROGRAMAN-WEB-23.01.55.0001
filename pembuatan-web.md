@@ -570,4 +570,5 @@ Buat File footer.php
 <br />
 
 -Buat Folder gambar/
+<br />
 Tempatkan gambar produk disini
