@@ -15,7 +15,7 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
     <br />script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
     <br />style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
     <br />
-     <br />
+   <br />
 2. Navigasi Antar Halaman:
     <br />Menggunakan Bootstrap untuk membuat navbar dan footer yang konsisten di setiap halaman.
     <br />Struktur navigasi berada di header.php yang akan disertakan di setiap halaman menggunakan PHP include().
