@@ -4,8 +4,8 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
 
 *Penjelasan fitur yang ada:
 1. File Struktur:
-   -index.php (Halaman Home)
-   -produk.php (Halaman Produk)
+    <br />index.php (Halaman Home)
+    <br />produk.php (Halaman Produk)
    -kontak.php (Halaman Tentang Kami)
    -detailproduk.php (Halaman Detail Produk)
    -co.php (Halaman Form Pemesanan)
@@ -14,10 +14,10 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
    -Folder gambar/ (Folder untuk gambar produk)
    -script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
    -style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
-3. Navigasi Antar Halaman:
+2. Navigasi Antar Halaman:
    Menggunakan Bootstrap untuk membuat navbar dan footer yang konsisten di setiap halaman.
    Struktur navigasi berada di header.php yang akan disertakan di setiap halaman menggunakan PHP include().
-4. Fungsi Tombol yang tersedia
+3. Fungsi Tombol yang tersedia
    Tombol "Lihat Koleksi" pada index.php jika di klik akan menampilkan halaman produk.php
    Tombol "Detail" pada index.php jika di klik akan menampilkan halaman detailproduk.php
    Tombol "Detail" pada produk.php jika di klik akan menampilkan halaman detailproduk.php
