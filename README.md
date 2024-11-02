@@ -15,18 +15,19 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
     <br />script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
     <br />style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
     <br />
-3. Navigasi Antar Halaman:
+     <br />
+2. Navigasi Antar Halaman:
     <br />Menggunakan Bootstrap untuk membuat navbar dan footer yang konsisten di setiap halaman.
     <br />Struktur navigasi berada di header.php yang akan disertakan di setiap halaman menggunakan PHP include().
     <br />
-4. Fungsi Tombol yang tersedia:
+     <br />
+3. Fungsi Tombol yang tersedia:
     <br />Tombol "Lihat Koleksi" pada index.php jika di klik akan menampilkan halaman produk.php
     <br />Tombol "Detail" pada index.php jika di klik akan menampilkan halaman detailproduk.php
     <br />Tombol "Detail" pada produk.php jika di klik akan menampilkan halaman detailproduk.php
     <br />Tombol "Tambah ke Keranjang" pada detailproduk.php jika di klik akan menampilkan halaman co.php
     <br />Setelah mengisi form pemesanan lalu tombol "Proses Pesanan" pada co.php di klik akan menampilkan notifikasi
  <br />
-  <br />
 *Cara menjalankan website:
  <br />1. Pastikan XAMPP sudah terinstal dan berjalan.
  <br />2. Aktifkan Apache dan MySQL pada xampp
