@@ -1,4 +1,5 @@
 Langkah 1: Persiapan Lingkungan
+<br />
 Pastikan XAMPP sudah terinstal dan berjalan.
 Buat folder baru di htdocs dengan nama hijab-fashion.
 <br />
