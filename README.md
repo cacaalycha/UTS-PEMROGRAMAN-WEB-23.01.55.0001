@@ -30,7 +30,7 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
  <br />
 *Cara menjalankan website:
  <br />1. Pastikan XAMPP sudah terinstal dan berjalan.
- <br />2. Aktifkan Apache dan MySQL pada xampp
+ <br />2. Aktifkan Apache pada xampp
  <br />3. Buka chrome lalu ketik pada bar URL atau address bar http://localhost/hijab-fashion/
  <br />Web sudah bisa langsung dijalankan
  <br />
