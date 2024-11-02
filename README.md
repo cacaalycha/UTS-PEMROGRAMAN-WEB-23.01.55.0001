@@ -6,30 +6,32 @@ Alysha Syafiya Maisaroh (23.01.55.0001)
 1. File Struktur:
     <br />index.php (Halaman Home)
     <br />produk.php (Halaman Produk)
-   -kontak.php (Halaman Tentang Kami)
-   -detailproduk.php (Halaman Detail Produk)
-   -co.php (Halaman Form Pemesanan)
-   -header.php (File untuk navigasi)
-   -footer.php (File untuk footer)
-   -Folder gambar/ (Folder untuk gambar produk)
-   -script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
-   -style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
-2. Navigasi Antar Halaman:
-   Menggunakan Bootstrap untuk membuat navbar dan footer yang konsisten di setiap halaman.
-   Struktur navigasi berada di header.php yang akan disertakan di setiap halaman menggunakan PHP include().
-3. Fungsi Tombol yang tersedia
-   Tombol "Lihat Koleksi" pada index.php jika di klik akan menampilkan halaman produk.php
-   Tombol "Detail" pada index.php jika di klik akan menampilkan halaman detailproduk.php
-   Tombol "Detail" pada produk.php jika di klik akan menampilkan halaman detailproduk.php
-   Tombol "Tambah ke Keranjang" pada detailproduk.php jika di klik akan menampilkan halaman co.php
-   Setelah mengisi form pemesanan lalu tombol "Proses Pesanan" pada co.php di klik akan menampilkan notifikasi
-
+    <br />kontak.php (Halaman Tentang Kami)
+    <br />detailproduk.php (Halaman Detail Produk)
+    <br />co.php (Halaman Form Pemesanan)
+    <br />header.php (File untuk navigasi)
+    <br />footer.php (File untuk footer)
+    <br />Folder gambar/ (Folder untuk gambar produk)
+    <br />script.js (Kode JavaScript untuk menambahkan interaktivitas ke halaman web)
+    <br />style.css (Kode CSS untuk menentukan tampilan atau styling dari halaman web)
+    <br />
+3. Navigasi Antar Halaman:
+    <br />Menggunakan Bootstrap untuk membuat navbar dan footer yang konsisten di setiap halaman.
+    <br />Struktur navigasi berada di header.php yang akan disertakan di setiap halaman menggunakan PHP include().
+    <br />
+4. Fungsi Tombol yang tersedia:
+    <br />Tombol "Lihat Koleksi" pada index.php jika di klik akan menampilkan halaman produk.php
+    <br />Tombol "Detail" pada index.php jika di klik akan menampilkan halaman detailproduk.php
+    <br />Tombol "Detail" pada produk.php jika di klik akan menampilkan halaman detailproduk.php
+    <br />Tombol "Tambah ke Keranjang" pada detailproduk.php jika di klik akan menampilkan halaman co.php
+    <br />Setelah mengisi form pemesanan lalu tombol "Proses Pesanan" pada co.php di klik akan menampilkan notifikasi
+ <br />
 *Cara menjalankan website:
 1. Pastikan XAMPP sudah terinstal dan berjalan.
 2. Aktifkan Apache dan MySQL pada xampp
 3. Buka chrome lalu ketik pada bar URL atau address bar http://localhost/hijab-fashion/
-Web sudah bisa langsung dijalankan
-
+ <br />Web sudah bisa langsung dijalankan
+ <br />
 *Sumber gambar:
 1. gambar/bergodusty.jpg: https://id-test-11.slatic.net/p/59d54c315ca8ca5147748b1231322631.jpg
 2. gambar/bergodusty2.jpg: https://down-id.img.susercontent.com/file/id-11134207-7r98y-m0b2d49hfios64
