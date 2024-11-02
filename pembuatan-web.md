@@ -1,10 +1,12 @@
 Langkah 1: Persiapan Lingkungan
 <br />
 Pastikan XAMPP sudah terinstal dan berjalan.
+<br />
 Buat folder baru di htdocs dengan nama hijab-fashion.
 <br />
 Langkah 2: Membuat Halaman Web
--Buat File index.php (Halaman Home)
+<br />
+Buat File index.php (Halaman Home)
 ```php
 <?php
 $title = "Hijab Fashion - Home";
@@ -119,7 +121,7 @@ include('header.php');
 ```
 <br />
 
--Buat File produk.php
+Buat File produk.php
 ```php
 <?php
 $title = "Hijab Fashion - Produk";
@@ -187,7 +189,7 @@ include('header.php');
 ```
 <br />
 
--Buat File detailproduk.php
+Buat File detailproduk.php
 ```php
 <?php
 // Mengatur title halaman
@@ -298,7 +300,7 @@ foreach ($products as $item) {
 ```
 <br />
 
--Buat File kontak.php
+Buat File kontak.php
 ```php
 <?php
 $title = "Hijab Fashion - Tentang Kami";
@@ -342,7 +344,7 @@ include('header.php');
 ```
 <br />
 
--Buat File co.php
+Buat File co.php
 ```php
 <?php
 session_start();
@@ -502,7 +504,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 <br />
 
--Buat File header.php
+Buat File header.php
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -539,7 +541,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ```
 <br />
 
--Buat File footer.php
+Buat File footer.php
 ```php
 <footer class="footer mt-5 py-4  text-dark">
     <div class="container d-flex flex-column align-items-center text-center">
@@ -567,4 +569,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <br />
 
 -Buat Folder gambar/
-Tempatkan gambar peoduk disini
+Tempatkan gambar produk disini
