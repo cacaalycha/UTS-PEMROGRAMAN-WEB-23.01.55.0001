@@ -4,6 +4,7 @@ Pastikan XAMPP sudah terinstal dan berjalan.
 <br />
 Buat folder baru di htdocs dengan nama hijab-fashion.
 <br />
+<br />
 Langkah 2: Membuat Halaman Web
 <br />
 Buat File index.php (Halaman Home)
