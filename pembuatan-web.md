@@ -115,10 +115,11 @@ include('header.php');
 </html>
 
 <?php include('footer.php'); ?>
-
+```
 <br />
 
 -Buat File produk.php
+```php
 <?php
 $title = "Hijab Fashion - Produk";
 include('header.php');
@@ -182,10 +183,11 @@ include('header.php');
 </section>
 
 <?php include 'footer.php'; ?>
-
+```
 <br />
 
 -Buat File detailproduk.php
+```php
 <?php
 // Mengatur title halaman
 $title = "Detail Produk - Hijab Fashion";
@@ -292,10 +294,11 @@ foreach ($products as $item) {
 
 
 <?php include('footer.php'); ?>
-
+```
 <br />
 
 -Buat File kontak.php
+```php
 <?php
 $title = "Hijab Fashion - Tentang Kami";
 include('header.php');
@@ -335,10 +338,11 @@ include('header.php');
 </div>
 
 <?php include('footer.php'); ?>
-
+```
 <br />
 
 -Buat File co.php
+```php
 <?php
 session_start();
 $title = "Hijab Fashion - Checkout";
@@ -494,10 +498,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </html>
 
 <?php include('footer.php'); ?>
-
+```
 <br />
 
 -Buat File header.php
+```php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -530,10 +535,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </nav>
     </div>
 </header>
-
+```
 <br />
 
 -Buat File footer.php
+```php
 <footer class="footer mt-5 py-4  text-dark">
     <div class="container d-flex flex-column align-items-center text-center">
         <div class="row justify-content-center w-100">
@@ -556,7 +562,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <script src="script.js"></script>
 </body>
 </html>
-
+```
 <br />
 
 -Buat Folder gambar/
