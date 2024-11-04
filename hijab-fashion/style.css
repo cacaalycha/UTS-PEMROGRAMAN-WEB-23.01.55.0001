@@ -1,0 +1,245 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Header Styling */
+header {
+    background-color: #D4BDAC;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+header .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+header .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+header .nav-link:hover {
+    color: #ffffff;
+}
+
+/* Banner Styling */
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 85vh; /* Tinggi gambar cover, dapat disesuaikan */
+    object-fit: cover;
+    filter: brightness(70%); /* Memberi efek gelap pada gambar untuk menonjolkan teks */
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.banner-overlay h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.banner-overlay p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.banner-overlay .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.banner-overlay h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.banner-overlay p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.banner-overlay a {
+    color: #fff;
+}
+
+/* Deskripsi Toko */
+.description {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.description h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.description p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-top: 1rem;
+}
+
+/* Produk Styling */
+.produk-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.produk-card img {
+    max-height: 350px; /* Mengatur tinggi maksimum gambar produk */
+    object-fit: cover; /* Menjaga rasio aspek gambar */
+}
+
+.produk-card:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel Styling */
+.carousel-item {
+    padding: 2rem 0;
+}
+
+/* Katalog Produk */
+.katalog {
+    margin-top: 2rem;
+}
+
+.katalog .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.katalog .card:hover {
+    transform: scale(1.05);
+}
+
+.katalog .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.katalog .card-text {
+    font-size: 1rem;
+    color: #D4BDAC;
+}
+
+.katalog .btn-primary {
+    background-color: #D4BDAC;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.katalog .btn-primary:hover {
+    background-color: #D4BDAC;
+}
+
+.btn-dark {
+    background-color: #D4BDAC !important;
+    border-color: #D4BDAC !important;
+    color: #000 !important; /* Warna teks hitam */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #D4BDAC;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Produk Detail Page */
+.product-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-detail h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.product-detail p {
+    font-size: 1rem;
+}
+
+.product-detail .btn-success {
+    background-color: #D4BDAC;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.product-detail .btn-success:hover {
+    background-color: #D4BDAC;
+}
+
+
+/* Checkout Form Styling */
+.container form .form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.container form .btn-primary {
+    background-color: #D4BDAC;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.container form .btn-primary:hover {
+    background-color: #D4BDAC;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .katalog .card {
+        margin-bottom: 1rem;
+    }
+}
